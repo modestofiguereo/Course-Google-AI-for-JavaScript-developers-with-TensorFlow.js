@@ -1,0 +1,22 @@
+{
+  "name": "course-google-ai-for-javascript-developers-with-tensorflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o --cors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modestofiguereo/Course-Google-AI-for-JavaScript-developers-with-TensorFlow.js.git"
+  },
+  "author": "Modesto Figuereo <me@modestofiguereo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modestofiguereo/Course-Google-AI-for-JavaScript-developers-with-TensorFlow.js/issues"
+  },
+  "homepage": "https://github.com/modestofiguereo/Course-Google-AI-for-JavaScript-developers-with-TensorFlow.js#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
