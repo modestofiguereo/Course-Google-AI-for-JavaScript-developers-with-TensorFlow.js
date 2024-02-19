@@ -32,7 +32,10 @@
     event.target.classList.add('removed');
 
     const stream = await navigator.mediaDevices.getUserMedia({
-      video: true,
+      video: {
+        width: { ideal: 960 },
+        height: { ideal: 512 }
+      }
     });
 
     const video = document.getElementById('webcam');
